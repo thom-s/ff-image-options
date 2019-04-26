@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "Image Options",
+  "version": "1.0",
+
+  "permissions": ["menus"],
+
+  "description": "Adds options to the context menu to open an image in a new tab or to search it on Google.",
+   
+   "applications": {
+      "gecko": {
+         "id": "imageoptions@thom-s.addons.mozilla.org"
+      }
+   },
+  
+  "background": {
+      "scripts": ["background.js"]
+    }
+
+}
